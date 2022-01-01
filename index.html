@@ -1,4 +1,103 @@
 <!DOCTYPE html>
-<html>
-    
-</html>>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+  
+<body class="body">
+  <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#aboutMe" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+            <li class="nav-item"><a href="#codeExamples" class="nav-link">Code examples</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+
+  <main class="main-container">
+    <div class="container">
+        <section class="section" id="profile">
+          <img class="foto" src="р-22.jpg" alt="my foto">
+          <h1 class="section-title">Evgenya Katargina</h1> 
+        </section>
+
+        <section class="section" id="aboutMe">
+          <h2 class="section-title">About Me</h2>
+          <b>Location:</b> Krasnodar, Russia <br>
+          <b>E-mail:</b> oblation@mail.ru<br>
+         <b>Git:</b> <a class="aboutMe-link" href="https://github.com/EvgeKat">EvgeKat</a>
+        </section>
+
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (Basic)</li>
+           <li>React JS (Basic)</li>
+          </ul>
+       </section>
+
+       <section class="section" id="experience">
+         <h2 class="section-title">Experience</h2>
+         <p>I have no work experience, so I just enter this specialty. 
+           There is a practice experience, which consists in creating sites according to the sample, 
+            but with rewriting the code.</p>
+       </section>
+
+       <section class="section" id="codeExamples">
+          <h2 class="section-title">Code examples</h2>
+          <pre>
+           <code> 
+            import React from 'react';
+            import style from './Item.module.css';
+            
+            const Title = (props) => {
+              const { TitleText } = props;
+              return (
+                 {TitleText}          
+                );
+            }
+           export default Title;</code>
+           </pre>
+       </section>
+
+       <section class="section" id="education">
+         <h2 class="section-title">Education</h2>
+          <p>There is no specialized education. I watched HTMl academy courses, React JS lessons, 
+            with the creation of a site based on a sample. Now I started studying at the RS-school.</p>
+       </section>
+
+        <section class="section" id="language">
+          <h2 class="section-title">Language</h2>
+          <p>I speak English at an elementary level, I can read and translate. 
+            I understand a little and speak English.</p>
+       </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-column">
+        <div>2022</div>
+        <div><a class="footer-link" href="https://github.com/EvgeKat">EvgeKat</a></div>
+        <div><a href="https://rs.school/js/"><img class="icon" src="https://rs.school/images/rs_school_js.svg" alt="icon"></a></div>
+      </div>
+      </div>
+  </footer>
+</body>  
+</html> 

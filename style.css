@@ -65,6 +65,7 @@ html {
   background-color: rgb(3, 88, 84);
   padding: 0px;
 }
+
 .footer-column {
   display: flex;
   align-items: center;
@@ -78,7 +79,6 @@ html {
 }
 
 .aboutMe-link {
-  text-decoration: none;
   color: black;
 }
 
